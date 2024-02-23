@@ -1,0 +1,211 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card_item {
+    background-color: #171717;
+    box-shadow: 0 1 black;
+    width: 800px;
+    margin: 25px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.card_hero{
+    position: relative;
+}
+
+.card_img{
+    display: block;
+    width: 110px;
+    border-radius: 1px;
+}
+
+.card_content{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_tittle{
+    font-weight: 30px;
+}
+
+.card_adress{
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.card_details {
+    font-size: 12.5px;
+    font-weight: 400;
+}
+
+.card_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_button{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #d9d9d9;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .4s;
+}
+
+.card_button:hover{
+    border-bottom: 1px solid #333;
+}
+
+.card_button:not(:last-child){
+    margin-right: 10px;
+}
+
+body{
+    display: block;
+    background-color: #101010;
+    color: #d9d9d9;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo{
+    width: 42px;
+    height: 100%;
+    background-color: black;
+}
+
+.logo img{
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    margin: 23px;
+}
+
+.menu li{
+    color: #d9d9d9;
+    padding-left: 2rem;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.menu li:hover{
+    color: aliceblue;
+    transform: translateY(-3px);
+}
+
+.vitrines__mangas ul{
+    display: flex;
+    margin: 25px;
+    background-color: #171717;
+    border-radius: 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px black;
+}
+
+.vitrines__mangas li{
+    font-weight: bold;
+    color: #d9d9d9;
+    font-size: 15px;
+    padding-left: 2rem;
+    padding: 6px 1rem;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+}
+
+form{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #171717;
+    border: 1px solid #333;
+    margin: 25px;
+    display: flex;
+}
+
+form input#search{
+    border: none;
+    padding: 5px;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    flex: 1
+}
+
+form button{
+    padding: 5px 15px;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.list{
+    margin-top: 10px;
+    padding: 25px;
+    display: flex;
+}
+
+.item{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+
+.item img{
+    width: 100%;
+}
+
+.item:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.list_mangas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 40vh;
+    background-color: #171717;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+/* CARD MANGAS */
